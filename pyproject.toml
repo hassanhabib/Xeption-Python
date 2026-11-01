@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xeption"
+version = "1.0.0.0"
+description = "Exceptions that carry their validation data and compare by value: the Python port of The Standard's Xeption library."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "LicenseRef-TSSL-1.1"
+license-files = ["LICENSE.txt"]
+authors = [{ name = "Hassan Habib", email = "hassanhabib@live.com" }]
+keywords = ["exceptions", "validation", "the-standard", "xeption"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Typing :: Typed",
+]
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[project.urls]
+Homepage = "https://github.com/hassanhabib/Xeption-Python"
+"C# Library" = "https://github.com/hassanhabib/Xeption"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+xeption = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
