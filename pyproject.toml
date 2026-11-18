@@ -28,7 +28,7 @@ test = ["pytest>=8"]
 
 [project.urls]
 Homepage = "https://github.com/hassanhabib/Xeption-Python"
-"C# Library" = "https://github.com/hassanhabib/Xeption"
+"C# Library" = "https://github.com/The-Standard-Organization/Xeption"
 
 [tool.setuptools.packages.find]
 where = ["src"]
