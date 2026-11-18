@@ -1,6 +1,6 @@
 # Xeption for Python
 
-An exception that carries its data. The Python port of [Xeption](https://github.com/hassanhabib/Xeption),
+An exception that carries its data. The Python port of [Xeption](https://github.com/The-Standard-Organization/Xeption),
 the library [The Standard](https://github.com/hassanhabib/The-Standard) uses to collect validation
 errors before breaking the circuit, and to compare exceptions by value in tests.
 
@@ -85,6 +85,21 @@ These parts of the C# library have no Python counterpart in this version:
 - `AggregateException` comparison (Python's `ExceptionGroup`);
 - `IsFrom` and `IsNotFrom`;
 - the FluentAssertions extensions.
+
+## The Standard
+
+This library is part of [The Standard](https://github.com/hassanhabib/The-Standard)
+family and is built to its rules for naming, layering and testing.
+
+Questions, ideas and contributions are welcome in
+[The Standard Community](https://discord.gg/vdPZ7hS52X) on Discord.
+
+## In other languages
+
+| Language | Repository | Package |
+|---|---|---|
+| C# | [Xeption](https://github.com/The-Standard-Organization/Xeption) | [Xeption on NuGet](https://www.nuget.org/packages/Xeption) |
+| Python | [Xeption-Python](https://github.com/hassanhabib/Xeption-Python) | [xeption on PyPI](https://pypi.org/project/xeption/) |
 
 ## Contributing
 
